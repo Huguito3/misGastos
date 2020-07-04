@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+/* Font Family */
+p {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 25px;
+}
+
+.cardStyle {
+  background-color: #f9f6af;
+  max-width: 250px;
+  /* height: 360px; */
+  margin: 10px;
+}
+
+.lineStyle {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.lineStyle > p {
+  padding-left: 8px;
+  text-align: left;
+}
+
+.alignLeft {
+  position: absolute;
+  left: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.alignMiddle {
+  text-align: center;
+  padding-left: 5px;
+}
+.alignRight {
+  position: relative;
+  right: 0;
+  padding-left: 10px;
+  float: right;
+}
+.floatButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-top: 9px;
+  margin: 2px;
+}
+
+.modalBackGround{
+  background-color: #f9f6af;
+}

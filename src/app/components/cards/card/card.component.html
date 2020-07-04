@@ -1,0 +1,37 @@
+<mat-card class="cardStyle">
+  <mat-card-header>
+    <div mat-card-avatar>2020</div>
+    <mat-card-title>{{ nombreDelMes }}</mat-card-title>
+    <mat-card-subtitle style="margin-bottom: 5px;"
+      >Total: {{ totalDelMes }}</mat-card-subtitle
+    >
+  </mat-card-header>
+  <mat-card-content>
+    <hr />
+    <div *ngFor="let task of taskList; let i =index" class="lineStyle">
+      <div class="alignLeft">
+        <mat-icon>{{ task.taskType }}</mat-icon>
+      </div>
+      <div class="alignMiddle">
+        <p>{{ task.name }}:</p>
+      </div>
+      <div class="alignRight">
+        <p>R${{ task.cost }}</p>
+      </div>
+    </div>
+    <hr />
+  </mat-card-content>
+  <mat-card-actions>
+    <br />
+    <div class="floatButton">
+      <button
+        mat-mini-fab
+        color="primary"
+        aria-label="Example icon button with a heart icon"
+        (click)="abrirModal()"
+      >
+        <mat-icon>add</mat-icon>
+      </button>
+    </div>
+  </mat-card-actions>
+</mat-card>

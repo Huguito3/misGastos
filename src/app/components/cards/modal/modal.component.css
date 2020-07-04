@@ -1,0 +1,87 @@
+h1, p {
+  text-align: center;
+}
+
+div {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 25px;
+}
+
+.lineStyle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.divEsquerdo {
+/* width: 20%; */
+background-color: blue;
+}
+.divMedio {
+  /* width: 80%; */
+  background-color: brown;
+}
+.divDireita {
+  /* width: 20%; */
+  background-color: chartreuse;
+}
+
+
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 15px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-medium-width{
+  width: 50%;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.example-margin {
+  margin: 10px;
+}
+.example-margin-right {
+  margin: 10px;
+  padding-left: 30px;
+}
+
+.modalFooter{
+
+  width: 100%;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+}
+
+
+.modalFotterLeft
+{
+  width: 50%;
+  float: left;
+   /* margin: auto; */
+}
+
+
+.modalFotterRight
+{
+  width: 50%;
+float: right;
+/* margin-bottom: 10px;
+margin-right: 10px; */
+}
